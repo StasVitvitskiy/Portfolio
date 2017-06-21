@@ -21,7 +21,9 @@ export default class Body extends React.Component {
                         various online resources included, but not limited to
                         <a target="_blank" href="https://www.coursera.org"> Coursera</a>,
                         <a target="_blank" href="https://www.freecodecamp.com/stasvitvitskiy"> Free Code Camp</a>.
-                        These platforms allow my expertise to grow with my passion.
+                        These platforms allow my expertise to grow with my passion. Also
+                        i have a <a target="_blank" href="https://github.com/one-more"> Mentor </a> who
+                        helps me to grow and develop my potential.
                         In order to support my dream, I work as a medical interpreter.
                         I am <a target="_blank"
                             href="https://www.dshs.wa.gov/fsa/language-testing-and-certification-program">
@@ -32,7 +34,8 @@ export default class Body extends React.Component {
                         have a strong passion for learning new technologies.
                         If you have any questions about my background,
                         please do not hesitate to reach out to me!
-                        <a onClick={() => scrollTo(document.body,1200,600)}> Indulge</a> my passion and lets discuss possible opportunities!
+                        <a onClick={() => scrollTo(document.body,
+                            document.querySelector('#email_me').offsetTop,600)}> Indulge</a> my passion and lets discuss possible opportunities!
                     </div>
                 </div>
             </div>
@@ -49,7 +52,7 @@ export default class Body extends React.Component {
                 </div>
             </div>
                 <div className="border-bottom content-block">
-                <div>
+                <div id="email_me">
                     <h1 className="centered heading-block font">
                         Interested in doing a
                         project together?
