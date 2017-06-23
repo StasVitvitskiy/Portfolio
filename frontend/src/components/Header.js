@@ -120,7 +120,7 @@ export default class Header extends React.Component {
                         onMouseEnter={this.onNavItemMouseEnter}
                         onAnimationEnd={this.onNavElementAnimationEnd}
                     >
-                        <a href="/">Home</a>
+                        <a href="">Home</a>
                     </li>
                     <li
                         onMouseEnter={this.onNavItemMouseEnter}
