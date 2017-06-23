@@ -60,7 +60,7 @@ export default class Header extends React.Component {
                         className={'frame_sv__border '+this.state.svClassName}
                         onAnimationEnd={this.onFrameAnimationEnd}
                     />
-                    <a onClick={location.reload()} className="frame_sv__link">SV</a>
+                    <a href="" className="frame_sv__link">SV</a>
                 </div>
                 <div className="header__menu-trigger">
                     <div>
@@ -75,7 +75,7 @@ export default class Header extends React.Component {
                     })}
                 >
                     <li>
-                        <a onClick={location.reload()}>Home</a>
+                        <a href="">Home</a>
                     </li>
                     <li
                         onClick={() => scrollTo(document.body, 1007, 600)}
