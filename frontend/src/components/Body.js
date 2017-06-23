@@ -46,7 +46,7 @@ export default class Body extends React.Component {
                     <div className="font font-size-one padding-bottom">Web Development is building
                         out the visual components of a website.
                         Using HTML, CSS , Javascript, customer-centric approach, and ability
-                        to emphathize with the clients' needs and wants, I build fast,
+                        to emphathize with the clients' needs and wants, I strive to build fast,
                         interactive websites using modern web technologies.
                     </div>
                 </div>

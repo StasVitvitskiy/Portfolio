@@ -127,9 +127,6 @@
 
 .App-logo {
   height: 25px;
-}
-
-.App-logo:hover {
   animation: App-logo-spin infinite 20s linear;
 }
 
